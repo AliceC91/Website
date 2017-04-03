@@ -1,0 +1,30 @@
+#accordion-container {
+	float:left;
+	width:100%;
+	margin:20px 0 0 0;
+}
+.accordion-header {
+	background: url(../images/bg_accordion_hdr.jpg) top repeat-x;;
+	margin: 5px 0 0 0;
+	padding: 0 20px 0 35px;
+	cursor: pointer;
+	font:15px 'Open Sans';
+	color:#fff;
+	text-transform:uppercase;
+	height:45px;
+	line-height:45px;
+}
+.active-header {
+	background: url(../images/active-header.png) 15px 18px no-repeat #000;
+}
+.inactive-header {
+	background: url(../images/inactive-header.png) 15px 18px no-repeat #000;
+}
+.accordion-content {
+	display: none;
+	padding:10px 0;
+	font:15px 'MyriadPro-Regular';
+	color:#000;
+	line-height:24px;
+	text-align:justify;
+}
